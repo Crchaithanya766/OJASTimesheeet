@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "CreateUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CreateUser</h2>
+
+<div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td> <input type="text" id="txtName" /></td>
+            <td>Mobile no.</td>
+            <td> <input type="text" id="txtMobile" /></td>
+            <td>Email ID</td>
+            <td> <input type="text" id="txtEmail" /></td>
+        </tr>
+        <tr>
+            <td>User Name</td>
+            <td> <input type="text" id="txtUserName" /></td>
+            <td>Password</td>
+            <td> <input type="text" id="txtPassword" /></td>
+            <td>Confirm Password</td>
+            <td> <input type="password" id="txtCPassword" /></td>
+        </tr>
+        <tr>
+            <td> <input value="Save" type="submit" onclick="SaveUser();" /></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<script>
+
+    function SaveUser() {
+        var model = {
+            Name: $('#txtName').val(),
+
+            Email: $('#txtEmail').val(),
+            MobileNumber: $('#txtMobile').val(),
+            UserName: $('#txtUserName').val(),
+            Password: $('#txtPassword').val(),
+            ConfirmPassoword: $('#txtCPassword').val()
+        };
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/Registration/PostUserRegistration",
+            data: JSON.stringify({
+                data: model
+            }),
+            cache: true,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                alert("Addedd Successfully");
+
+            }
+
+        });
+    }
+
+</script>

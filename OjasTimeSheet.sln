@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OjasTimeSheet", "OjasTimeSheet\OjasTimeSheet.csproj", "{AD93E78F-97F6-4F28-A642-7CC4E4276E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ojas.DataAccessLayer", "Ojas.DataAccessLayer\Ojas.DataAccessLayer.csproj", "{41DCC5CA-CC6E-45A9-A9E5-3F0556E1BE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ojas.TimeSheet.BusinessLayer", "Ojas.TimeSheet.BusinessLayer\Ojas.TimeSheet.BusinessLayer.csproj", "{D2634145-35D8-47EC-A3C1-FE165F185D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ojas.TimeSheet.BusinessModel", "Ojas.TimeSheet.BusinessModel\Ojas.TimeSheet.BusinessModel.csproj", "{85BA087E-F960-4048-8B8B-0C875688B161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD93E78F-97F6-4F28-A642-7CC4E4276E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD93E78F-97F6-4F28-A642-7CC4E4276E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD93E78F-97F6-4F28-A642-7CC4E4276E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD93E78F-97F6-4F28-A642-7CC4E4276E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DCC5CA-CC6E-45A9-A9E5-3F0556E1BE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DCC5CA-CC6E-45A9-A9E5-3F0556E1BE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DCC5CA-CC6E-45A9-A9E5-3F0556E1BE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DCC5CA-CC6E-45A9-A9E5-3F0556E1BE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2634145-35D8-47EC-A3C1-FE165F185D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2634145-35D8-47EC-A3C1-FE165F185D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2634145-35D8-47EC-A3C1-FE165F185D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2634145-35D8-47EC-A3C1-FE165F185D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85BA087E-F960-4048-8B8B-0C875688B161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85BA087E-F960-4048-8B8B-0C875688B161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85BA087E-F960-4048-8B8B-0C875688B161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85BA087E-F960-4048-8B8B-0C875688B161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63C63C31-260F-4129-BE38-9C478B481250}
+	EndGlobalSection
+EndGlobal
